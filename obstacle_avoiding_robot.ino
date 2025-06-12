@@ -15,7 +15,8 @@ const int echoPin = 8;
 // Distance threshold in cm
 const int distanceThreshold = 20;
 
-
+// Speed (0 to 255)
+const int motorSpeed = 90;
 
 void setup() {
   // Motor pins
@@ -31,8 +32,8 @@ void setup() {
   pinMode(echoPin, INPUT);
 
   // Start motors at set speed
-  analogWrite(ENA, 120);
-  analogWrite(ENB, 120);
+  analogWrite(ENA, 100);
+  analogWrite(ENB, motorSpeed);
 }
 
 void loop() {
@@ -50,7 +51,7 @@ void loop() {
   duration = pulseIn(echoPin, HIGH);
   distance = duration * 0.034 / 2;
 
-  if (distance < distanceThreshold) {
+  if (distance <=distanceThreshold) {
     // Obstacle detected - Turn Right
     turnRight();
     delay(300);
@@ -61,8 +62,8 @@ void loop() {
 }
 
 void moveForward() {
-  analogWrite(ENA, 120);
-  analogWrite(ENB, 120);
+  analogWrite(ENA, 70);
+  analogWrite(ENB, motorSpeed);
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
   digitalWrite(IN3, HIGH);
@@ -70,8 +71,8 @@ void moveForward() {
 }
 
 void turnRight() {
-  analogWrite(ENA, 120);
-  analogWrite(ENB, 120);
+  analogWrite(ENA, 70);
+  analogWrite(ENB, motorSpeed);
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, HIGH);
   digitalWrite(IN3, HIGH);

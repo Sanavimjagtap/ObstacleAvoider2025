@@ -15,7 +15,7 @@ This is an Arduino-based robot that avoids obstacles using an ultrasonic sensor 
 The robot detects obstacles in front of it using the ultrasonic sensor and automatically turns to avoid them.
 
 ## 📷 Photos
-![Wiring](images/wiring.jpg)
+![Wiring](https://drive.google.com/file/d/1kOrm-YIv3XmiuH-S-0z3LQoG6BOtgXsn/view?usp=drivesdk)
 ![Robot](https://drive.google.com/file/d/18qNUVKA1PYdjAtRin-_fL_tE3N1aLSz7/view?usp=drivesdk)
 
 ## 📼 Demo Video

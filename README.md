@@ -16,7 +16,7 @@ The robot detects obstacles in front of it using the ultrasonic sensor and autom
 
 ## 📷 Photos
 ![Wiring](https://github.com/Sanavimjagtap/ObstacleAvoider2025/blob/main/img1.jpg)
-![Robot](https://drive.google.com/file/d/18qNUVKA1PYdjAtRin-_fL_tE3N1aLSz7/view?usp=drivesdk)
+![Robot](https://github.com/Sanavimjagtap/ObstacleAvoider2025/blob/main/wiring.jpg)
 
 ## 📼 Demo Video
 [Watch on Google Drive / YouTube]()

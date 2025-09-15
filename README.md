@@ -19,7 +19,7 @@ The robot detects obstacles in front of it using the ultrasonic sensor and autom
 ![Robot](https://github.com/Sanavimjagtap/ObstacleAvoider2025/blob/main/wiring.jpg)
 
 ## 📼 Demo Video
-[Watch on Google Drive / YouTube]()
+[Watch Video](https://github.com/Sanavimjagtap/ObstacleAvoider2025/blob/main/Obstacle-avoider%20Robot.mp4)
 
 ## 🧠 Code
 See [`obstacle_avoiding_robot.ino`](https://github.com/Sanavimjagtap/ObstacleAvoider2025/blob/main/obstacle_avoiding_robot.ino) for full Arduino code.

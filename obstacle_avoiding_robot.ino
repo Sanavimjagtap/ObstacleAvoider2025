@@ -1,3 +1,4 @@
+
 // Motor Driver Pins
 const int IN1 = 2;   // Left Motor
 const int IN2 = 3;
@@ -16,7 +17,7 @@ const int echoPin = 8;
 const int distanceThreshold = 20;
 
 // Speed (0 to 255)
-const int motorSpeed = 90;
+const int motorSpeed = 80;
 
 void setup() {
   // Motor pins
@@ -32,7 +33,7 @@ void setup() {
   pinMode(echoPin, INPUT);
 
   // Start motors at set speed
-  analogWrite(ENA, 100);
+  analogWrite(ENA, 70);
   analogWrite(ENB, motorSpeed);
 }
 
